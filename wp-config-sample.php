@@ -13,7 +13,7 @@
  * * Tabellprefix för databas
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://wordpress.org/documentation/article/editing-wp-config-php/
  *
  * @package WordPress
  */
@@ -75,7 +75,7 @@ $table_prefix = 'wp_';
  * För information om andra konstanter som kan användas för felsökning, 
  * se dokumentationen. 
  * 
- * @link https://codex.wordpress.org/Debugging_in_WordPress
+ * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */ 
 define('WP_DEBUG', false);
 /* Lägg in eventuella anpassade värden mellan denna rad och raden med "sluta redigera här". */
