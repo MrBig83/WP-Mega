@@ -1327,7 +1327,7 @@ if ( ! function_exists( 'woocommerce_product_archive_description' ) ) {
 				$description = wc_format_content( wp_kses( $shop_page->post_content, $allowed_html ) );
 				if ( $description ) {
 					echo '<div class="page-description">' . $description . '</div>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-				}
+				} 
 			}
 		}
 	}

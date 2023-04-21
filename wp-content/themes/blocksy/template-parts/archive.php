@@ -44,7 +44,6 @@ if (! have_posts()) {
 	$section_class = 'class="ct-no-results"';
 }
 
-
 ?>
 
 <div class="<?php echo $container_class ?>" <?php echo wp_kses_post(blocksy_sidebar_position_attr()); ?> <?php echo blocksy_get_v_spacing() ?>>
@@ -58,7 +57,6 @@ if (! have_posts()) {
 			echo blocksy_output_hero_section([
 				'type' => 'type-1'
 			]);
-
 			echo blocksy_render_archive_cards();
 		?>
 	</section>
