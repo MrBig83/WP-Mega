@@ -1,0 +1,37 @@
+
+==============================
+||                          ||
+||      Arbetslogg          ||
+||                          ||
+==============================
+
+Av: Amanda, Viola (Egles), Martin
+Butiksnamn: MEGA (M-artin EG-les A-manda) ;p
+
+
+Produkter: 
+Lagt till sex produkter i olika kategorier och som olika produkttyper. 
+Alla produkter är relaterade till sport och idrott. 
+
+Produkttyperna som används på sidan är: 
+- Single product (Vattenflaska)
+- Variable product (Alla kläder)
+- Downloadable product (Motivationstest)
+- Grouped product (Dextrosol)
+
+Plugin: 
+Ett plugin som skapar en CPT där användaren kan skriva in en välkomsthälsning på butikssidan. 
+Pluginet heter "weeklygreet" och är skapat av Amanda, Viola och Martin. 
+I adminpanelen kommer man åt pluginer genom "Greet".
+
+
+Barn-tema: 
+Vi gjorde ett barntema till Blocksy (som är vårat föräldratema). 
+Barntemat lägger till en notis om att kunden har- eller inte har handlat för gränsvärdet för att få en värdekupong. 
+    (add_action)
+Barntemat tar även bort "excerpt" (den korta beskrivningen) på samtliga produkter. 
+    (remove_action)
+
+
+Template override: 
+Vi gjorde en override av originaltemats 404-sida. 
